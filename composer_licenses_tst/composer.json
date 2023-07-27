@@ -1,0 +1,13 @@
+{
+    "name": "a/b",
+    "type": "project",
+    "require": {
+        "devist-team/laragin": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "A\\B\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
