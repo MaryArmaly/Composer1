@@ -3,30 +3,30 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
-    ],
-    "content-hash": "2187d490cc04dd97461bc0f081be1f83",
-    "packages": [
-        {
-            "name": "amrshawky/currency",
-            "version": "1.0.0",
-            "source": {
+    ], 
+    "content-hash": "2187d490cc04dd97461bc0f081be1f83", 
+    "packages": [ 
+        { 
+            "name": "amrshawky/currency", 
+            "version": "1.0.0", 
+            "source": { 
                 "type": "git",
                 "url": "https://github.com/amrshawky/currency.git",
                 "reference": "39f13b6783ef611fd13916d48abd31bca2ab1e54"
             },
             "dist": {
-                "type": "zip",
+                "type": "zip", 
                 "url": "https://api.github.com/repos/amrshawky/currency/zipball/39f13b6783ef611fd13916d48abd31bca2ab1e54",
                 "reference": "39f13b6783ef611fd13916d48abd31bca2ab1e54",
-                "shasum": "",
-                "mirrors": [
+                "shasum": "", 
+                "mirrors": [ 
                     {
                         "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
             },
-            "require": {
+            "require": { 
                 "ext-json": "*",
                 "guzzlehttp/guzzle": ">=6.0",
                 "php": ">=7.2"
